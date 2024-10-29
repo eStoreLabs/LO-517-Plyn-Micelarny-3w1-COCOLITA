@@ -6,7 +6,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  max-width: 990px;
+  max-width: 1300px;
   color: #000;
   background: #fff;
 }
@@ -518,4 +518,32 @@
   #es-rc #es-rc-content .es-features__action--text {
     font-size: 18px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media (min-width: 1200px) {
+  #es-rc #es-rc-content .es-features__single {
+    font-size: 15px;
+  }
+  #es-rc #es-rc-content .es-technology {
+    background-color: transparent;
+  }
+  #es-rc #es-rc-content .es-technology__textWrapper {
+    left: 8%;
+  }
+  #es-rc #es-rc-content .es-technology__title {
+    font-size: 26px;
+  }
+  #es-rc #es-rc-content .es-technology__text {
+    font-size: 18px;
+  }
+  #es-rc #es-rc-content .es-formula__left {
+    max-width: 530px;
+  }
+  #es-rc #es-rc-content .es-formula__right {
+    max-width: 585px;
+  }
+  #es-rc #es-rc-content .es-formula__single {
+    padding: 30px 14px;
+    font-size: 15px;
+  }
+}
